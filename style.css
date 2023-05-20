@@ -847,4 +847,19 @@ footer .copyright{
     footer .copyright {
     text-align: start;
     }
+
+    /* single product page */
+    #prodetails {
+    display: flex;
+    flex-direction: column;
+    }
+
+    #prodetails .single-pro-img {
+    width: 100%;
+    margin-right: 0px;
+    }
+
+    #prodetails .single-product-details {
+    width: 100%;
+    }
 }
