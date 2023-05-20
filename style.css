@@ -542,7 +542,107 @@ footer .copyright{
     text-align: center;
 }
 
-/* Media Query */
+    /* SHOP PAGE STARTS */
+
+    /* page header */
+#page-header {
+    background-image: url("image/Banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    padding: 14vh;
+    }
+
+#page-header h2,
+#page-header p {
+    color: #fff;
+}
+
+    /* pagination */
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+    /* SINGLE PRODUCT DETAILS PAGE */
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+#prodetails .single-pro-img {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-product-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-product-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-product-details h2{
+    font-size: 26px;
+}
+
+#prodetails .single-product-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-product-details input{
+    width: 50px;
+    height: 47px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-product-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-product-details button{
+    background: #088178;
+    color: #fff;
+}
+
+#prodetails .single-product-details span{
+    line-height: 25px;
+} 
+
+/*  First Media Query */
 @media(max-width:799px){
 
     .section-p1 {
@@ -641,7 +741,7 @@ footer .copyright{
     width: 70%;
     }
 }
-
+    /* Second media query */
 @media (max-width: 477px){
 
     .section-p1 {
