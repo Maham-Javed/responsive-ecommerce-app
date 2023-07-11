@@ -749,6 +749,31 @@ footer .copyright{
     z-index: -9;
 }
 
+/* About Page */
+#page-header.about-header{
+    background-image: url("image/about/banner.png");
+}
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+
+
+/* Contact us Page */
+
+/* Cart Page */
+
+
 /*  First Media Query */
 @media(max-width:799px){
 
@@ -917,7 +942,7 @@ footer .copyright{
     text-align: start;
     }
 
-    /* single product page */
+    /* single product page  media query*/
     #prodetails {
     display: flex;
     flex-direction: column;
@@ -932,7 +957,7 @@ footer .copyright{
     width: 100%;
     }
 
-    /* Blog page */
+    /* Blog page media query */
 
     #blog {
         padding: 100px 20px 0 20px;
